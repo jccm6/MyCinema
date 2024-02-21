@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS here -->
+    <!-- <link rel="stylesheet" href="./styles/reset.css"> -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/animate.min.css">
+    <link rel="stylesheet" href="styles/magnific-popup.css">
+    <link rel="stylesheet" href="styles/fontawesome-all.min.css">
+    <link rel="stylesheet" href="styles/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles/flaticon.css">
+    <link rel="stylesheet" href="styles/odometer.css">
+    <link rel="stylesheet" href="styles/aos.css">
+    <link rel="stylesheet" href="styles/slick.css">
+    <link rel="stylesheet" href="styles/default.css">
+    <link rel="stylesheet" href="styles/divider.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <script src="/scripts/header_footer.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Proyecto de Cinema</title>
+  </head>
+  <body>
+    <header id="header">
+    </header>
+    <main>
+      <!-- slider-area -->
+      <section class="wave-container wave-container-bottom slider-area slider-bg" style="background-image: url(https://i.ibb.co/bQXFmRj/background-slider.jpg);">
+        <div class="slider-active">
+            <div class="slider-item">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 order-0 order-lg-2">
+                            <div class="slider-img text-center text-lg-center" data-animation="fadeInRight" data-delay="1s">
+                                <img id="img_slider1" src="" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="banner-content">
+                                <h6 id="director_slider1" class="sub-title" data-animation="fadeInUp" data-delay=".2s"></h6>
+                                <h2 id="title_slider1" class="title" data-animation="fadeInUp" data-delay=".4s"></h2>
+                                <div class="banner-meta" data-animation="fadeInUp" data-delay=".6s">
+                                    <ul>
+                                        <li id="" class="quality">
+                                            <span>Pg 18</span>
+                                            <span>hd</span>
+                                        </li>
+                                        <li id="genre_slider1" class="category">
+                                        </li>
+                                        <li class="release-time">
+                                            <span><i class="far fa-calendar-alt"></i> <span id="year_slider1"></span> </span>
+                                            <span><i class="far fa-clock"></i> <span id="duration_slider1"></span> </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="banner-btn btn popup-video" data-animation="fadeInUp" data-delay=".8s"><i class="fas fa-play"></i> Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slider-area-end -->
+
+    <!-- services-area -->
+    <section class="wave-container wave-container-top upper-section services-area services-bg" style="background-image: url(https://i.ibb.co/SNNqDgV/backfround-info.jpg);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="services-img-wrap">
+                        <img src="https://i.imgur.com/9SHizzd.png" alt="" style="box-shadow: 0px 0px 10px 2px black;">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="services-content-wrap">
+                        <div class="section-title title-style-two mb-20">
+                            <span class="sub-title">Nosotros</span>
+                            <h2 class="title">Descubre el mundo del cine en la comodidad de tu hogar con Henry.</h2>
+                        </div>
+                        <p>Vive la experiencia de una noche de estreno todos los días, con acceso ilimitado a una vasta biblioteca de películas y series que te transportarán desde la emblemática alfombra roja de Hollywood hasta los rincones más exóticos del cine internacional.</p>
+                        <div class="services-list">
+                            <ul>
+                                <li>
+                                    <div class="icon">
+                                        <i class="flaticon-television"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h5>Calidad de imagen y sonido excepcionales</h5>
+                                        <p>Disfruta de tus películas y series favoritas en la más alta definición, con opciones de personalización para una experiencia audiovisual inigualable.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="flaticon-video-camera"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h5>Contenido exclusivo y actualizado</h5>
+                                        <p>Mantente al día con los estrenos más recientes y descubre joyas ocultas en nuestra colección curada, disponible solo para nuestros suscriptores.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services-area-end -->
+
+    <!-- top-rated-movie -->
+    <section class="lower-section section-divider top-rated-movie tr-movie-bg2" style="margin-bottom: 10px ;background-image: url(https://i.imgur.com/LMHwoeH.png);">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-8">
+                  <div class="section-title text-center mb-50">
+                      <span class="sub-title">CONOCE NUESRTAS</span>
+                      <h2 class="title">Películas</h2>
+                      <p style="color: white;">Esta sección toma las peliculas de Mongoose</p>
+                  </div>
+              </div>
+          </div>
+        <div id="movies-card" class="row tr-movie-active" style="position: relative;">
+        </div>
+      </div>
+    </section>
+    <!-- top-rated-movie-end -->
+
+    </main>
+
+    <!-- <section id="movies-container">
+      <h2>Peliculas</h2>
+      <div id="movies-card">
+      //Aqui van las peliculas
+      </div>
+    </section> -->
+
+    <footer id="footer">
+    </footer>
+    <script src="./public/slider_bundle.js"></script>
+    <script src="./public/cards_bundle.js"></script>
+    <!-- <script src="./scripts/tempData.js"></script> -->
+    <!-- <script src="./scripts/slider.js"></script> -->
+    <!-- <script src="./scripts/card-movies_new.js"></script> -->
+    <!-- JS Template here -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/imagesloiaded.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.odometer.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/plugins.js"></script> -->
+  </body>
+</html>
