@@ -1,7 +1,7 @@
 # MyCinema (Descripción Español)
 
-MyCinema es una solución full-stack que ofrece una experiencia cinéfila, presentando información detallada sobre películas obtenida directamente de MongoDB. Este sistema permite a los usuarios explorar una pequeña variedad de títulos cinematográficos a través de una interfaz intuitiva, para enriquecer su experiencia.
-Puedes acceder al proyecto mediante: https://cinema.jccm.dev/
+MyCinema es una solución full-stack que ofrece una experiencia cinéfila, presentando información detallada sobre películas obtenida directamente de MongoDB. Este sistema permite a los usuarios explorar una pequeña variedad de títulos cinematográficos a través de una interfaz intuitiva, para enriquecer su experiencia.<br>
+Puedes acceder al proyecto mediante: <a href="https://cinema.jccm.dev/" target="_blank">https://cinema.jccm.dev/</a>
 
 ## Tecnologías Utilizadas
 
@@ -72,8 +72,8 @@ Para más detalles, consulta el archivo [LICENSE](LICENSE) en este repositorio.
 
 # MyCinema (English version)
 
-MyCinema is a full-stack solution that offers a cinematic experience, presenting detailed information about movies obtained directly from MongoDB. This system allows users to explore a small variety of film titles through an intuitive interface, to enrich their experience.
-You can access the project through: https://cinema.jccm.dev/
+MyCinema is a full-stack solution that offers a cinematic experience, presenting detailed information about movies obtained directly from MongoDB. This system allows users to explore a small variety of film titles through an intuitive interface, to enrich their experience. <br>
+You can access the project through: <a href="https://cinema.jccm.dev/" target="_blank">https://cinema.jccm.dev/</a>
 
 ## Technologies Used
 
